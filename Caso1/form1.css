@@ -1,0 +1,67 @@
+  /* DIV principal */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    top: 100px
+  }
+
+/*  Boton Dropdown */
+.dropbtn {
+    background-color: lightslategray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Propiedades boton en hover */
+  .dropbtn:hover {
+    background-color:gold;
+    font-size: 24px;
+  }
+  
+  /* DIV de la lista */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Lista dentro del boton */
+  .dropdown-content a {
+    color: black;
+    padding: 9px 18px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Lista en hover */
+  .dropdown-content a:hover {
+      background-color:green;
+      font-size: 24px;
+  }
+  
+  /* Formato de los submenus */
+  #menu1 {
+      left: 160px;
+      top: 0px;
+      background-color: coral;
+  }
+
+  #menu2 {
+    left: 160px;
+    top: 36px;
+    background-color: coral;
+    
+}
+  
+
+  /* Para mostrar o no la lista, en js usar toggle */
+  .show {
+      display:block;
+    }

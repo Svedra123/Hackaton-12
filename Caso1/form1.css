@@ -19,7 +19,7 @@
   /* Propiedades boton en hover */
   .dropbtn:hover {
     background-color:gold;
-    font-size: 24px;
+    font-size: 16px;
   }
   
   /* DIV de la lista */
@@ -43,7 +43,7 @@
   /* Lista en hover */
   .dropdown-content a:hover {
       background-color:green;
-      font-size: 24px;
+      font-size: 16px;
   }
   
   /* Formato de los submenus */
